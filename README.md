@@ -12,7 +12,7 @@
 
 ### About me
 
-- 🛠️ **~2 years at Nav Tech Electronics** (automotive): ML and Computer Vision Intern, then Associate Software Engineer – AI Tooling and Automation. LLM tooling, backend services, CI/CD and test automation.
+- 🛠️ **~2 years at Nav Tech Electronics**: ML and Computer Vision Intern, then Associate Software Engineer – AI Tooling and Automation. LLM tooling, backend services, CI/CD and test automation.
 - 🤖 Fine-tuned **Flan-T5** to turn natural-language requirements into structured ECU test cases, cutting manual test-writing effort by **~30%**. I built its dataset from 650 seed pairs up to ~100K examples.
 - ⚙️ Automated the boring parts: **Jira auto-filing from fault detection**, PDF → CSV extraction with Python and regex (**−60%** manual analysis), Bitbucket/Jenkins pipelines (**−40%** deploy time).
 - 🎓 Studying for an **M.Sc. Artificial Intelligence** at BTU Cottbus-Senftenberg, Germany.
