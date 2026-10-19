@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Sreya 👋</h1>
-<h3 align="center">Software and automation engineer moving into applied AI. I build LLM pipelines, retrieval tools and CI/CD automation that take repetitive work off people's plates.</h3>
+<h3 align="center">Software engineer moving into applied AI. I build LLM pipelines, retrieval tools and CI/CD automation that take repetitive work off people's plates.</h3>
 
 <p align="center">
   <a href="https://loopless-site.patelstracy.workers.dev"><img src="https://img.shields.io/badge/Portfolio-LoopLess-111827?style=flat&logo=cloudflare&logoColor=white" alt="LoopLess portfolio"></a>
