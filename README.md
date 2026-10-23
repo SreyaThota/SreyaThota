@@ -1,126 +1,34 @@
-# Hi there 👋 I'm Sreya Thota
+## Hi, I'm Sreya Thota
 
-🚀 **Software & Automation Engineer moving into Applied AI** | LLM pipelines • RAG • CI/CD & Test Automation
-🎓 M.Sc. Artificial Intelligence @ BTU Cottbus-Senftenberg (expected Oct 2027)
-📍 Cottbus, Germany
+M.Sc. Artificial Intelligence student at BTU Cottbus-Senftenberg (expected Oct 2027), with about two years of ML, computer vision and AI-tooling work at Nav Tech Electronics. I build LLM and ML systems in Python and measure whether they work, including when the answer is "not yet".
 
-I build LLM pipelines, retrieval tools and CI/CD automation that take repetitive work off people's plates.
+**Looking for:** AI/ML, LLM and Python working-student roles or internships in Germany (20 h/week in the semester, full-time in breaks; Cottbus, open to relocation or remote).
 
-[![Email](https://img.shields.io/badge/Email-sreyathota.5@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sreyathota.5@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sreyathota5-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sreyathota5)
-[![Portfolio](https://img.shields.io/badge/Portfolio-LoopLess-111827?style=for-the-badge&logo=cloudflare&logoColor=white)](https://loopless-site.patelstracy.workers.dev/)
-[![GitHub](https://img.shields.io/badge/GitHub-SreyaThota-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SreyaThota)
+### Projects
 
-🔎 **Open to:** Working student and internship roles in AI/ML and automation in Germany (remote, hybrid or on-site), flexible to relocate to any city in Germany.
+**[Pipeline Medic](https://github.com/SreyaThota/pipeline-medic)** — LLM agents for CI failure diagnosis
+A LangGraph graph that parses and redacts a failed CI log, retrieves similar past failures (Chroma), rates the risk and proposes a ticket through MCP tools that only run after a human approves. Built and measured on real GitHub Actions logs from open-source repos:
+- Last-15-lines chunking doubled retrieval Recall@1 over whole-log embedding (0.413 vs 0.217, 46 queries, cross-repo).
+- GraphRAG (Neo4j) and a LoRA risk classifier were built and *not* adopted: neither beat the simpler baseline on held-out logs.
+- Trajectory evaluation of the whole graph on 72 held-out logs (labels written by me, no second reviewer), 80-test security suite, CI with mypy strict.
 
----
+**[Alzheimer's MRI classification](https://github.com/SreyaThota/alzheimers-mri-detection)** — CNN, B.Tech team project
+Four-class dementia-stage classifier from brain MRI with a Flask app. Team project; inherited components and my own rebuild (training/evaluation scripts, leakage checks, per-class metrics, Grad-CAM) are documented separately. Academic prototype, not a medical device.
 
-## 🧠 Areas of Interest
+**[ArchCipher](https://github.com/SreyaThota/42_Hack_21_22)** — autonomous coding agent, 42 × Needle hackathon (team of 3)
+A plan → code → test → repair loop on local LLMs (Ollama, Qwen2.5-Coder) that built a DSL compiler from a hidden spec. My part: the isolated compiler v2 pipeline ([merged PR](https://github.com/ArchCipher/42xNeedle_Hackathon/pull/1)).
 
-- Large Language Models and fine-tuning small models
-- Retrieval-Augmented Generation (RAG) and retrieval evaluation
-- Agentic AI (LangGraph, MCP)
-- Computer Vision
-- CI/CD, build automation and test automation
-- AI tooling for engineering teams
+**[Breadcrumb](https://github.com/SreyaThota/breadcrumb)** — local-first Windows tool that reconstructs where you left off (Python, SQLite, Win32; 15 tests).
 
-## 🛠 Tech Stack
+### Work (Nav Tech Electronics, 2024–2025, code confidential)
+- Fine-tuned Flan-T5 to turn natural-language requirements into ECU test cases; grew the dataset from 650 seed pairs to ~100K examples (~30% less manual test writing).
+- Trained a 50-class YOLOv8 dashboard-icon detector (mAP@0.5 0.453) and traced weak classes to data imbalance.
+- Jira fault-reporting automation and Bitbucket/Jenkins CI/CD.
 
-**AI / ML:** Python · Hugging Face · Flan-T5 fine-tuning · RAG and retrieval evaluation · Ollama · Chroma · YOLOv8 · TensorFlow/Keras · scikit-learn
-**Backend & automation:** Java · FastAPI · Flask · Django · REST APIs · SQL/MySQL · TypeScript · React
-**CI/CD & tooling:** Bitbucket Pipelines · Jenkins · Git · Linux · Docker (basics) · pytest · JUnit
-**Learning now:** LangGraph · MCP · PyTorch
+### Tools
+**ML / AI:** Python · TensorFlow/Keras · scikit-learn · Hugging Face Transformers · YOLOv8 · RAG and retrieval evaluation · Chroma · Ollama
+**Learning:** PyTorch · LangGraph · MCP
+**Engineering:** FastAPI · Flask · pytest · Git · GitHub Actions · Jenkins · Docker (basics) · SQL · Linux · Java
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
----
-
-## 🚀 Featured Projects
-
-### 🩺 [Pipeline Medic](https://github.com/SreyaThota/pipeline-medic) *(in progress, v0.2)*
-Copilot that diagnoses why CI/CD runs fail, using real GitHub Actions logs.
-
-**Tech:** Python • FastAPI • Ollama • Chroma
-
-**Features**
-- Retrieval baseline built and measured: over 46 queries from 9 open-source repos, last-15-lines chunking reached **Recall@1 0.413** vs 0.217 for whole logs
-- Agent features are planned, not built yet
-
-### 🧭 [Breadcrumb](https://github.com/SreyaThota/breadcrumb)
-Local-first Windows utility that reconstructs where you left off after an interruption.
-
-**Tech:** Python • Tkinter • SQLite • Win32 API
-
-**Features**
-- Masks sensitive window titles, no cloud
-- **15 unit tests**
-
-### 🧶 [ArchCipher](https://github.com/SreyaThota/42_Hack_21_22) · 42 × Needle Hackathon
-Coding agent (plan → code → test → repair loop on local LLMs) that built a DSL compiler from a hidden spec.
-
-**Tech:** Python • Ollama • Qwen2.5-Coder
-
-**Features**
-- **150/150** on public and hidden tests
-- Live monitoring dashboard
-
-### 🎓 [ABS AI](https://github.com/SreyaThota/ABS) · [live ↗](https://abs-zeta.vercel.app) · GDG BTU "Build with AI" Hackathon, Top 5
-Turns lectures into summaries and career-readiness insights. Team of five; my part was CI/CD and deployment.
-
-**Tech:** TypeScript • React • Supabase • Google Cloud
-
----
-
-## 💼 Experience
-
-**Nav Tech Electronics** (automotive), about 2 years
-ML and Computer Vision Intern, then Associate Software Engineer – AI Tooling and Automation
-
-- Fine-tuned **Flan-T5** to turn natural-language requirements into structured ECU test cases, cutting manual test-writing effort by **~30%**; built the dataset from 650 seed pairs up to ~100K examples
-- Automated Jira ticket filing from fault detection
-- Built PDF → CSV extraction with Python and regex (**−60%** manual analysis)
-- Set up Bitbucket/Jenkins pipelines (**−40%** deploy time)
-
-<sub>My Nav Tech work (FAST_AI LLM pipeline, YOLOv8 dashboard-icon detector, Jira fault automation) is employer code and not public. Details are on my <a href="https://loopless-site.patelstracy.workers.dev">portfolio</a>, and I'm happy to walk through it in a call.</sub>
-
-## 🎓 Education
-
-- **M.Sc. Artificial Intelligence**, BTU Cottbus-Senftenberg, Germany (expected Oct 2027)
-- **B.Tech, Computer Science & Engineering**, RGUKT Basar, India (CGPA 8.07)
-
-## 📚 Currently Exploring
-
-- Agentic AI with LangGraph and MCP
-- Extending Pipeline Medic from the retrieval baseline to an agent layer
-- PyTorch
-
----
-
-## 🌐 Connect with Me
-
-<div align="center">
-
-### 📧 [sreyathota.5@gmail.com](mailto:sreyathota.5@gmail.com)
-
-### 💼 [LinkedIn: linkedin.com/in/sreyathota5](https://linkedin.com/in/sreyathota5)
-
-### 🌍 [Portfolio: loopless-site.patelstracy.workers.dev](https://loopless-site.patelstracy.workers.dev/)
-
-### 💻 [GitHub: github.com/SreyaThota](https://github.com/SreyaThota)
-
-⭐ **Always learning, always building. Open to working student roles, internships and collaborations!**
-
-</div>
+### Contact
+[LinkedIn](https://linkedin.com/in/sreyathota5) · [sreyathota.5@gmail.com](mailto:sreyathota.5@gmail.com) · [Personal site](https://loopless-site.patelstracy.workers.dev)
