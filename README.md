@@ -22,7 +22,7 @@
 |---|---|
 | 🎯 **Looking for** | AI / ML, LLM and Python **working-student roles**, internships and a mandatory internship (Pflichtpraktikum) in Germany |
 | 🕒 **Availability** | 20 h/week during the semester · full-time in lecture-free periods |
-| 📍 **Based in** | Berlin, Germany · open to remote or hybrid |
+| 📍 **Based in** | Berlin, Germany · open to remote or hybrid · **open to relocate anywhere in Germany** |
 | 🎓 **Studying** | M.Sc. Artificial Intelligence, BTU Cottbus-Senftenberg (expected Oct 2027) |
 | 💼 **Experience** | About 2 years at Nav Tech Electronics (ML, computer vision, LLM and data work) |
 | 🗣️ **Languages** | English (fluent) |
