@@ -1,14 +1,14 @@
 ## Hi, I'm Sreya Thota
 
-M.Sc. Artificial Intelligence student at BTU Cottbus-Senftenberg (expected Oct 2027), with about two years of ML, computer vision and AI-tooling work at Nav Tech Electronics. I build LLM and ML systems in Python and measure whether they work, including when the answer is "not yet".
+M.Sc. Artificial Intelligence student at BTU Cottbus-Senftenberg (expected Oct 2027), based in Berlin, with ~2 years at Nav Tech Electronics across ML, computer vision, LLM and data work. I build LLM and ML systems in Python and measure whether they work, including when the answer is "not yet".
 
-**Looking for:** AI/ML, LLM and Python working-student roles or internships in Germany (20 h/week in the semester, full-time in breaks; Cottbus, open to relocation or remote).
+**Looking for:** AI/ML, LLM and Python working-student roles or internships in Germany (20 h/week in the semester, full-time in breaks; Berlin-based, open to remote or hybrid).
 
 ### Projects
 
 **[Pipeline Medic](https://github.com/SreyaThota/pipeline-medic)** — LLM agents for CI failure diagnosis
 A LangGraph graph that parses and redacts a failed CI log, retrieves similar past failures (Chroma), rates the risk and proposes a ticket through MCP tools that only run after a human approves. Built and measured on real GitHub Actions logs from open-source repos:
-- Last-15-lines chunking doubled retrieval Recall@1 over whole-log embedding (0.413 vs 0.217, 46 queries, cross-repo).
+- Last-15-lines chunking nearly doubled retrieval Recall@1 over whole-log embedding (0.413 vs 0.217, 46 queries, cross-repo).
 - GraphRAG (Neo4j) and a LoRA risk classifier were built and *not* adopted: neither beat the simpler baseline on held-out logs.
 - Trajectory evaluation of the whole graph on 72 held-out logs (labels written by me, no second reviewer), 80-test security suite, CI with mypy strict.
 
@@ -17,6 +17,8 @@ Four-class dementia-stage classifier from brain MRI with a Flask app. Team proje
 
 **[ArchCipher](https://github.com/SreyaThota/42_Hack_21_22)** — autonomous coding agent, 42 × Needle hackathon (team of 3)
 A plan → code → test → repair loop on local LLMs (Ollama, Qwen2.5-Coder) that built a DSL compiler from a hidden spec. My part: the isolated compiler v2 pipeline ([merged PR](https://github.com/ArchCipher/42xNeedle_Hackathon/pull/1)).
+
+**[HeatMap.Wohnen](https://github.com/SreyaThota/heatmap-wohnen)** — Climathon 2026 team project (team of four): web-based heat-stress scoring concept for apartments. My part: idea, UI and demo.
 
 **[Breadcrumb](https://github.com/SreyaThota/breadcrumb)** — local-first Windows tool that reconstructs where you left off (Python, SQLite, Win32; 15 tests).
 
