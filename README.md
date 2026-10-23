@@ -2,7 +2,7 @@
 
 🚀 **Software & Automation Engineer moving into Applied AI** | LLM pipelines • RAG • CI/CD & Test Automation
 🎓 M.Sc. Artificial Intelligence @ BTU Cottbus-Senftenberg (expected Oct 2027)
-📍 Cottbus, Germany
+📍 Berlin, Germany
 
 I build LLM pipelines, retrieval tools and CI/CD automation that take repetitive work off people's plates.
 
