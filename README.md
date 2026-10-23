@@ -1,36 +1,103 @@
-## Hi, I'm Sreya Thota
+<div align="center">
 
-M.Sc. Artificial Intelligence student at BTU Cottbus-Senftenberg (expected Oct 2027), based in Berlin, with ~2 years at Nav Tech Electronics across ML, computer vision, LLM and data work. I build LLM and ML systems in Python and measure whether they work, including when the answer is "not yet".
+# Hi, I'm Sreya Thota 👋
 
-**Looking for:** AI/ML, LLM and Python working-student roles or internships in Germany (20 h/week in the semester, full-time in breaks; Berlin-based, open to remote or hybrid).
+### AI / ML engineer · M.Sc. Artificial Intelligence student · Berlin
 
-### Projects
+**I build LLM and ML systems in Python and measure whether they actually work, including when the answer is "not yet".**
 
-**[Pipeline Medic](https://github.com/SreyaThota/pipeline-medic)** — LLM agents for CI failure diagnosis
-A LangGraph graph that parses and redacts a failed CI log, retrieves similar past failures (Chroma), rates the risk and proposes a ticket through MCP tools that only run after a human approves. Built and measured on real GitHub Actions logs from open-source repos:
-- Last-15-lines chunking nearly doubled retrieval Recall@1 over whole-log embedding (0.413 vs 0.217, 46 queries, cross-repo).
-- GraphRAG (Neo4j) and a LoRA risk classifier were built and *not* adopted: neither beat the simpler baseline on held-out logs.
-- Trajectory evaluation of the whole graph on 72 held-out logs (labels written by me, no second reviewer), 80-test security suite, CI with mypy strict.
+<a href="https://www.linkedin.com/in/sreyathota5/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:sreyathota.5@gmail.com"><img src="https://img.shields.io/badge/Email-sreyathota.5@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://loopless-site.patelstracy.workers.dev"><img src="https://img.shields.io/badge/Portfolio-View-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
 
-**[Alzheimer's MRI classification](https://github.com/SreyaThota/alzheimers-mri-detection)** — CNN, B.Tech team project
-Four-class dementia-stage classifier from brain MRI with a Flask app. Team project; inherited components and my own rebuild (training/evaluation scripts, leakage checks, per-class metrics, Grad-CAM) are documented separately. Academic prototype, not a medical device.
+<img src="https://img.shields.io/badge/🟢_Open_to-Working_Student_·_Internship_·_Pflichtpraktikum-16A34A?style=for-the-badge" alt="Open to work">
 
-**[ArchCipher](https://github.com/SreyaThota/42_Hack_21_22)** — autonomous coding agent, 42 × Needle hackathon (team of 3)
-A plan → code → test → repair loop on local LLMs (Ollama, Qwen2.5-Coder) that built a DSL compiler from a hidden spec. My part: the isolated compiler v2 pipeline ([merged PR](https://github.com/ArchCipher/42xNeedle_Hackathon/pull/1)).
+</div>
 
-**[HeatMap.Wohnen](https://github.com/SreyaThota/heatmap-wohnen)** — Climathon 2026 team project (team of four): web-based heat-stress scoring concept for apartments. My part: idea, UI and demo.
+---
 
-**[Breadcrumb](https://github.com/SreyaThota/breadcrumb)** — local-first Windows tool that reconstructs where you left off (Python, SQLite, Win32; 15 tests).
+## ⚡ At a glance
 
-### Work (Nav Tech Electronics, 2024–2025, code confidential)
-- Fine-tuned Flan-T5 to turn natural-language requirements into ECU test cases; grew the dataset from 650 seed pairs to ~100K examples (~30% less manual test writing).
-- Trained a 50-class YOLOv8 dashboard-icon detector (mAP@0.5 0.453) and traced weak classes to data imbalance.
-- Jira fault-reporting automation and Bitbucket/Jenkins CI/CD.
+| | |
+|---|---|
+| 🎯 **Looking for** | AI / ML, LLM and Python **working-student roles**, internships and a mandatory internship (Pflichtpraktikum) in Germany |
+| 🕒 **Availability** | 20 h/week during the semester · full-time in lecture-free periods |
+| 📍 **Based in** | Berlin, Germany · open to remote or hybrid |
+| 🎓 **Studying** | M.Sc. Artificial Intelligence, BTU Cottbus-Senftenberg (expected Oct 2027) |
+| 💼 **Experience** | About 2 years at Nav Tech Electronics (ML, computer vision, LLM and data work) |
+| 🗣️ **Languages** | English (fluent) |
 
-### Tools
-**ML / AI:** Python · TensorFlow/Keras · scikit-learn · Hugging Face Transformers · YOLOv8 · RAG and retrieval evaluation · Chroma · Ollama
-**Learning:** PyTorch · LangGraph · MCP
-**Engineering:** FastAPI · Flask · pytest · Git · GitHub Actions · Jenkins · Docker (basics) · SQL · Linux · Java
+---
 
-### Contact
-[LinkedIn](https://linkedin.com/in/sreyathota5) · [sreyathota.5@gmail.com](mailto:sreyathota.5@gmail.com) · [Personal site](https://loopless-site.patelstracy.workers.dev)
+## 🚀 Top projects
+
+| Project | What it does | Result |
+|---|---|---|
+| 🩺 **[Pipeline Medic](https://github.com/SreyaThota/pipeline-medic)** | LangGraph agent that diagnoses failed CI runs on real GitHub Actions logs. MCP tools run only after human approval. | **Recall@1 0.413 vs 0.217** baseline (46 logs, 9 repos). GraphRAG and a LoRA classifier were tested and **not adopted**: neither beat the baseline. 337 tests. |
+| 📚 **[Campus Knowledge Assistant](https://github.com/SreyaThota/campus-knowledge-assistant)** | RAG assistant over university regulation documents with page-level citations. A similarity gate refuses out-of-scope questions without calling the LLM. Runs locally with Ollama. | FastAPI · ChromaDB · Streamlit · pytest suite. Retrieval quality **not yet evaluated** (next step). |
+| 🧠 **[Alzheimer's MRI classification](https://github.com/SreyaThota/alzheimers-mri-detection)** | CNN that classifies brain MRI into four dementia stages (B.Tech team project) with a Flask app. | My leakage-free rebuild scored **macro-F1 0.356 vs 0.532** for the original, which showed the original accuracy claim did not hold up. Both numbers are in the repo. |
+| ♿ **[AI Website Accessibility Auditor](https://github.com/SreyaThota/ai-website-accessibility-auditor)** | Checks web pages against WCAG 2.1 AA: DOM rules, colour contrast and touch-target size from screenshots, optional vision-model alt-text suggestions. | Playwright · FastAPI · Streamlit · **42 tests** · CI. A rule-based checker, not yet benchmarked against other tools. |
+
+<sub>Team projects: [ABS AI](https://github.com/SreyaThota/ABS) (Top 5, GDG BTU "Build with AI", my part: CI/CD and Google Cloud deployment) · [ArchCipher](https://github.com/SreyaThota/archcipher) (42 × Needle hackathon, my part: compiler v2 pipeline) · [HeatMap.Wohnen](https://github.com/SreyaThota/heatmap-wohnen) (Climathon 2026 concept, my part: idea, UI and demo)</sub>
+
+---
+
+## 💼 Work experience
+
+**Nav Tech Electronics, Hyderabad** · Associate Engineer – Software (Jul 2024 – Nov 2025) · Machine Learning Engineer Intern (Jan – Jun 2024)
+
+- 🤖 Fine-tuned **Flan-T5 (250M)** to turn natural-language requirements into structured ECU test cases; grew the training data from **650 seed pairs to about 100K examples**; about **30% less manual test-writing effort**.
+- 👁️ Trained a **50-class YOLOv8** dashboard-icon detector (**mAP@0.5 0.453**) and traced weak classes to data imbalance.
+- ⚙️ Built Jira fault-reporting automation, a PDF-to-CSV extraction tool, and Bitbucket/Jenkins CI/CD (deployment time down about 40%).
+
+---
+
+## 🛠️ Skills
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge)
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+| 💪 I use | 📈 I'm learning | 🧮 Studied (M.Sc.) |
+|---|---|---|
+| RAG and retrieval evaluation (Recall@k, MRR) · LLM fine-tuning · agent workflows (LangGraph, MCP) · computer vision (YOLOv8, CNN) · model evaluation (mAP, F1) | PyTorch · deeper LLM evaluation | Linear algebra, PCA/SVD and optimization · Bayesian inference · neuronal network dynamics · Q-learning, MDPs and POMDPs |
+
+---
+
+## 🧭 How I work
+
+- **Measure first.** Every change is compared with a simpler baseline before I keep it.
+- **Report weak results.** Negative results and known limits go in the README, not in a drawer.
+- **AI-assisted, human-checked.** I use AI coding assistants on some projects and say so; I design the experiments, review the code and own the evaluation.
+
+---
+
+## 📫 Let's talk
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/sreyathota5/"><img src="https://img.shields.io/badge/LinkedIn-sreyathota5-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:sreyathota.5@gmail.com"><img src="https://img.shields.io/badge/Email-Write_to_me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://loopless-site.patelstracy.workers.dev"><img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+
+**Best way to reach me: LinkedIn or email.**
+
+</div>
