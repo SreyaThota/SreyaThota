@@ -8,7 +8,7 @@
 
 <a href="https://www.linkedin.com/in/sreyathota5/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:sreyathota.5@gmail.com"><img src="https://img.shields.io/badge/Email-sreyathota.5@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://loopless-site.patelstracy.workers.dev"><img src="https://img.shields.io/badge/Portfolio-View-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+<a href="https://loopless-site.sreyathota.workers.dev"><img src="https://img.shields.io/badge/Portfolio-View-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
 
 <img src="https://img.shields.io/badge/🟢_Open_to-Working_Student_·_Internship_·_Pflichtpraktikum-16A34A?style=for-the-badge" alt="Open to work">
 
@@ -96,7 +96,7 @@
 
 <a href="https://www.linkedin.com/in/sreyathota5/"><img src="https://img.shields.io/badge/LinkedIn-sreyathota5-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:sreyathota.5@gmail.com"><img src="https://img.shields.io/badge/Email-Write_to_me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://loopless-site.patelstracy.workers.dev"><img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+<a href="https://loopless-site.sreyathota.workers.dev"><img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
 
 **Best way to reach me: LinkedIn or email.**
 
