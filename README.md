@@ -2,7 +2,7 @@
 
 # Hi, I'm Sreya Thota 👋
 
-### AI / ML engineer · M.Sc. Artificial Intelligence student · Berlin
+### AI / ML engineer · M.Sc. Artificial Intelligence student 
 
 **I build LLM and ML systems in Python and measure whether they actually work, including when the answer is "not yet".**
 
