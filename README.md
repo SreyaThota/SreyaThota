@@ -33,6 +33,7 @@
 
 | Project | What it does | Result |
 |---|---|---|
+| 🖐️ **[TactileSense AI](https://github.com/SreyaThota/tactile-sense-ai)** | Supervised learning on real GelSight Mini tactile-sensor images (153,600 frames): OpenCV contact segmentation, HOG + SVM baseline vs. compact PyTorch CNN, split by physical object | Single touch **~0.17 accuracy vs 0.10 chance** (both models) · **0.32–0.36** with 32 touches fused · leakage control: a frame-level split would inflate the score by 46% |
 | 🩺 **[Pipeline Medic](https://github.com/SreyaThota/pipeline-medic)** | LangGraph agent that diagnoses failed CI runs on real GitHub Actions logs; actions need human approval | **Recall@1 0.413 vs 0.217** baseline · GraphRAG and LoRA tested, **not adopted** (no gain) · 337 tests |
 | 📚 **[Campus Knowledge Assistant](https://github.com/SreyaThota/campus-knowledge-assistant)** | RAG over university regulations with page citations; refuses out-of-scope questions without calling the LLM; runs locally | FastAPI · ChromaDB · Streamlit · tests · evaluation **in progress** |
 | 🧠 **[Alzheimer's MRI classification](https://github.com/SreyaThota/alzheimers-mri-detection)** | CNN for four dementia stages from brain MRI (B.Tech team project) with a Flask app | Honest rebuild: **macro-F1 0.356 vs 0.532** (original) · exposed an unsupported accuracy claim |
@@ -56,6 +57,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
@@ -78,7 +81,7 @@
 
 | 💪 I use | 📈 I'm learning | 🧮 Studied (M.Sc.) |
 |---|---|---|
-| RAG and retrieval evaluation (Recall@k, MRR) · LLM fine-tuning · agent workflows (LangGraph, MCP) · computer vision (YOLOv8, CNN) · model evaluation (mAP, F1) | PyTorch · deeper LLM evaluation | Linear algebra, PCA/SVD and optimization · Bayesian inference · neuronal network dynamics · Q-learning, MDPs and POMDPs |
+| RAG and retrieval evaluation (Recall@k, MRR) · LLM fine-tuning · agent workflows (LangGraph, MCP) · computer vision (YOLOv8, PyTorch CNNs, OpenCV) · tactile-sensor images (GelSight) · model evaluation (mAP, F1) | Robot tactile perception (multi-touch fusion, calibration) · deeper LLM evaluation | Linear algebra, PCA/SVD and optimization · Bayesian inference · neuronal network dynamics · Q-learning, MDPs and POMDPs |
 
 ---
 
