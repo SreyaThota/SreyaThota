@@ -24,7 +24,7 @@
 | 🕒 **Availability** | 20 h/week during the semester · full-time in lecture-free periods |
 | 📍 **Based in** |  Germany · open to remote or hybrid · **open to relocate anywhere in Germany** |
 | 🎓 **Studying** | M.Sc. Artificial Intelligence, BTU Cottbus-Senftenberg (expected Oct 2027) |
-| 💼 **Experience** | About 2 years at Nav Tech Electronics (ML, computer vision, LLM and data work) |
+| 💼 **Experience** | AI/ML Engineering Intern at **Mindverse**, Berlin (current) · about 2 years at Nav Tech Electronics (ML, computer vision, LLM and data work) |
 | 🗣️ **Languages** | English (fluent) |
 
 ---
@@ -45,6 +45,10 @@
 
 ## 💼 Work experience
 
+**Mindverse (relativity GmbH), Berlin** · AI/ML Engineering Intern (Present)
+
+- 🔎 Working on **RAG** over company documents: **OCR**, embeddings and **Pinecone** vector search, **token budgeting**, and **Langfuse** tracing.
+
 **Nav Tech Electronics, Hyderabad** · Associate Engineer – Software (Jul 2024 – Nov 2025) · Machine Learning Engineer Intern (Jan – Jun 2024)
 
 - 🤖 Fine-tuned **Flan-T5 (250M)** to turn natural-language requirements into structured ECU test cases; grew the training data from **650 seed pairs to about 100K examples**; about **30% less manual test-writing effort**.
@@ -64,6 +68,8 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge)
+![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=for-the-badge)
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
