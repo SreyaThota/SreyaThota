@@ -6,7 +6,7 @@
 
 **Currently building production RAG: OCR, Pinecone vector search, token budgeting and Langfuse tracing.**
 
-**2+ years shipping ML in industry: LLM fine-tuning, RAG, agents and computer vision in Python, with honest evaluation against baselines.**
+**About 2 years of industry ML (LLM fine-tuning, computer vision) plus RAG and agent projects in Python, always measured against a baseline.**
 
 <a href="https://www.linkedin.com/in/sreyathota5/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:sreyathota.5@gmail.com"><img src="https://img.shields.io/badge/Email-sreyathota.5@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
