@@ -10,7 +10,7 @@
 <a href="mailto:sreyathota.5@gmail.com"><img src="https://img.shields.io/badge/Email-sreyathota.5@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://loopless-site.sreyathota.workers.dev"><img src="https://img.shields.io/badge/Portfolio-View-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
 
-<img src="https://img.shields.io/badge/🟢_Open_to-Working_Student_·_Internship_·_Pflichtpraktikum-16A34A?style=for-the-badge" alt="Open to work">
+<img src="https://img.shields.io/badge/🟢_Open_to-Working_Student_·_Pflichtpraktikum-16A34A?style=for-the-badge" alt="Open to work">
 
 </div>
 
