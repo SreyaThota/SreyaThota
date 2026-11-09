@@ -2,9 +2,11 @@
 
 # Hi, I'm Sreya Thota 👋
 
-### AI / ML engineer · M.Sc. Artificial Intelligence student 
+### AI/ML Engineering Intern @ Mindverse, Berlin · M.Sc. Artificial Intelligence student
 
-**I build LLM and ML systems in Python and measure whether they actually work, including when the answer is "not yet".**
+**Currently building production RAG: OCR, Pinecone vector search, token budgeting and Langfuse tracing.**
+
+**2+ years shipping ML in industry: LLM fine-tuning, RAG, agents and computer vision in Python, with honest evaluation against baselines.**
 
 <a href="https://www.linkedin.com/in/sreyathota5/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:sreyathota.5@gmail.com"><img src="https://img.shields.io/badge/Email-sreyathota.5@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
