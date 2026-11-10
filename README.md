@@ -25,7 +25,7 @@ AI/ML Engineering Intern at **Mindverse**, Berlin · M.Sc. Artificial Intelligen
 
 | Project | What it does | Stack | Result |
 |---|---|---|---|
-| **[Pipeline Medic](https://github.com/SreyaThota/pipeline-medic)**<br>LLM agent | Diagnoses failed CI/CD runs from real GitHub Actions logs and proposes a fix action that a human approves | LangGraph · MCP · RAG · FastAPI · Ollama | Recall@1 **0.413 vs 0.217** baseline on 123 human-labelled logs |
+| **[Pipeline Medic](https://github.com/SreyaThota/pipeline-medic)**<br>LLM agent | Diagnoses failed CI/CD runs from real GitHub Actions logs and proposes a fix action that a human approves | LangGraph · MCP · RAG · FastAPI · Ollama | Recall@1 **0.413 vs 0.217** baseline on real open-source CI logs |
 | **[Campus Knowledge Assistant](https://github.com/SreyaThota/campus-knowledge-assistant)**<br>RAG | Answers questions on university regulations with page citations; a PyTorch gate refuses off-topic questions before the LLM is called | FastAPI · ChromaDB · PyTorch · Streamlit | Gate benchmarked against 4 baselines on 5,500 held-out queries · 37 tests |
 | **[TactileSense AI](https://github.com/SreyaThota/tactile-sense-ai)**<br>Computer vision | Classifies real GelSight Mini tactile-sensor images (153,600 frames) | OpenCV · PyTorch CNN · HOG + SVM | **17%** from one touch (chance 10%), **32–36%** from 32 touches; split by physical object |
 | **[AI Website Accessibility Auditor](https://github.com/SreyaThota/ai-website-accessibility-auditor)**<br>Automation | Audits web pages against WCAG 2.1 AA: DOM rules, colour contrast, touch-target size | Playwright · FastAPI · Streamlit | 42 tests · CI · Docker |
